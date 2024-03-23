@@ -5,7 +5,7 @@ open Types
 open Fable.SimpleJson
 open System
 open DataRecognition
-
+(*
 let rec replace path replacementElement (currentCode: RenderingCode) =
     match path with
     | [] -> replacementElement
@@ -66,4 +66,4 @@ let rec renderingCodeToReactElement (code: RenderingCode) (path: int list) (json
 
         let fieldType = json |> recognizeJson
         let optionPane = options fieldType path name
-        optionPane
+        optionPane*)
